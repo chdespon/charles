@@ -17,8 +17,6 @@ size_t	ft_strlen(char *p_src)
 	size_t	len;
 
 	len = 0;
-	if (p_src == NULL)
-		return (0);
 	while (p_src[len] != '\0')
 		len++;
 	return (len);
