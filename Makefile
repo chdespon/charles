@@ -24,7 +24,7 @@ SRC =		ft_f_abs.c ft_f_floor.c ft_f_roof.c ft_i_abs.c ft_i_roof.c \
 			\
 			ft_str_is_only_digit.c ft_is_digit.c ft_strcmp.c ft_strcmp_c.c \
 			ft_is_alpha.c ft_is_lower.c ft_is_upper.c ft_is_alpha_num.c \
-			ft_is_whitespaces.c ft_file_exist.c\
+			ft_is_whitespaces.c ft_file_exist.c ft_strncmp.c\
 			\
 			ft_putchar.c ft_putchar_fd.c ft_putchar_fp.c \
 			ft_putstr.c ft_putstr_fd.c ft_putstr_fp.c \

@@ -6,7 +6,7 @@
 /*   By: chdespon <chdespon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/29 17:06:39 by ncoudsi           #+#    #+#             */
-/*   Updated: 2021/05/25 12:28:18 by chdespon         ###   ########.fr       */
+/*   Updated: 2021/06/11 16:47:46 by chdespon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -50,6 +50,8 @@ t_bool			ft_is_lower(char p_c);
 t_bool			ft_is_alpha(char p_c);
 t_bool			ft_is_alpha_num(char p_c);
 t_bool			ft_file_exist(char *p_path);
+int				ft_strncmp(char *p_src, char *p_target, int len);
+
 
 /*
 ** Prototypage des CONVERTS.
