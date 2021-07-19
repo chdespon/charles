@@ -6,7 +6,7 @@
 /*   By: chdespon <chdespon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/29 17:06:39 by ncoudsi           #+#    #+#             */
-/*   Updated: 2021/07/06 12:37:15 by chdespon         ###   ########.fr       */
+/*   Updated: 2021/07/16 14:36:10 by chdespon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,6 +44,7 @@ t_bool			ft_str_is_only_digit(char *str);
 t_bool			ft_is_digit(char c);
 int				ft_strcmp(char *p_src, char *p_target);
 t_bool			ft_strcmp_c(char *p_src, char p_target);
+t_bool			ft_str_is_only_whitespaces(char *str);
 t_bool			ft_is_whitespaces(char p_c);
 t_bool			ft_is_upper(char p_c);
 t_bool			ft_is_lower(char p_c);
@@ -51,7 +52,6 @@ t_bool			ft_is_alpha(char p_c);
 t_bool			ft_is_alpha_num(char p_c);
 t_bool			ft_file_exist(char *p_path);
 int				ft_strncmp(char *p_src, char *p_target, int len);
-
 
 /*
 ** Prototypage des CONVERTS.
@@ -71,7 +71,6 @@ char			*ft_itoa_unsigned_deci(unsigned int nbr);
 long long		ft_atoi(char *p_str);
 void			ft_swap_char(char *x, char *y);
 void			ft_swap_int(int *x, int *y);
-
 
 /*
 ** Prototypage des LISTS.
